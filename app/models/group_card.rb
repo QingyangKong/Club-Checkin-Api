@@ -1,0 +1,2 @@
+class GroupCard < ApplicationRecord
+end

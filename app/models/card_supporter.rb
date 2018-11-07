@@ -1,0 +1,2 @@
+class CardSupporter < ApplicationRecord
+end
