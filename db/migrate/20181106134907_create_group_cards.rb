@@ -5,7 +5,7 @@ class CreateGroupCards < ActiveRecord::Migration[5.2]
       t.string :url
       t.string :message
       t.integer :group_card_id
-      t.string :cDheck_in_time
+      t.string :check_in_time
       t.integer :report_group_id
       t.integer :support_group_id
 
