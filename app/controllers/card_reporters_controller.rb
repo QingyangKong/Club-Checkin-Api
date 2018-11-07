@@ -17,7 +17,6 @@ class CardReportersController < ApplicationController
     # GET /card_reporters/:id
     def show
         @card_reporter = CardReporter.find(params[:id])
-        # puts @card_reporters.find(params[:id])
         json_response(@card_reporter)
     end
 end

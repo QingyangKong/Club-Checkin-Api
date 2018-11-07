@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2018_11_06_135551) do
     t.string "url"
     t.string "message"
     t.integer "group_card_id"
-    t.string "cDheck_in_time"
+    t.string "check_in_time"
     t.integer "report_group_id"
     t.integer "support_group_id"
     t.datetime "created_at", null: false
